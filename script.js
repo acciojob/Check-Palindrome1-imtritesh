@@ -5,10 +5,10 @@ function palindrome(str){
 	var str1 = str.toLowerCase();
 for(var i=0; i<str1.length/2; i++){
 	if(str1[i]!==str1[(str.length-1)-i]){
-		return "false";
+		return false;
 		}
 	}
-	return "true";
+	return true;
 }
 	
 module.exports = palindrome
