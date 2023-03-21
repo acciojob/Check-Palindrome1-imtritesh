@@ -1,8 +1,9 @@
 // complete the given function
 
 function palindrome(str){
-for(var i=0; i<str.length/2; i++){
-	if(str[i]==str.length-i){
+	str1 = str.toLowerCase();
+for(var i=0; i<str1.length/2; i++){
+	if(str1[i]==str1.length-i){
 		return "true";
 	}else{
 		return "false";
